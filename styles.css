@@ -1,1 +1,39 @@
-/* your code */
+table {
+  width: 90%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  font-family: 'Montserrat', Arial, sans-serif;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  border-radius: 24px 24px 24px 24px;
+  overflow: hidden;
+}
+thead {
+  background: #1c5276;
+  color: #fff;
+}
+th, td {
+  padding: 22px 32px;
+  text-align: left;
+  font-size: 1.4em;
+}
+th {
+  letter-spacing: 1px;
+}
+tbody tr {
+  background-color: #fff;
+  border-bottom: 2px solid #e1e1e1;
+  transition: background 0.25s;
+}
+tbody tr:nth-child(even) {
+  background: #ededed;
+}
+tbody tr:hover {
+  background: #e7f3ff;
+}
+td {
+  font-weight: 500;
+  color: #24272c;
+}
+td:last-child, th:last-child {
+  text-align: center;
+}
